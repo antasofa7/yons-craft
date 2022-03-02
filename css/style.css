@@ -80,8 +80,8 @@ section {
     position: absolute;
     z-index: 2;
     width: 240px;
-    height: 260px;
-    top: calc(50% - 130px);
+    height: 280px;
+    top: calc(50% - 140px);
     left: calc(50% - 120px);
     text-align: center;
 }
@@ -123,7 +123,10 @@ section {
     font-size: 3.75rem;
     font-weight: 700;
     color: var(--background-color);
-    margin-bottom: 16px;
+}
+
+.header .btn-cta {
+    margin-top: 16px;
 }
 
 .header .btn-cta a {
